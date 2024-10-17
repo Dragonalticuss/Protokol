@@ -6,10 +6,9 @@ h2 {
 
 ul {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
   overflow: hidden;
   background-color: #333;
+  padding-inline-start: 0px;
 }
 
 li {
@@ -30,8 +29,4 @@ li a:hover:not(.active) {
 
 .active {
   background-color: #04aa6d;
-}
-
-.nav {
-  margin: 1;
 }
